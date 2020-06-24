@@ -1,0 +1,23 @@
+First name     Last Name    Toy name
+
+sdf      sdf	Coal
+
+
+
+Coal : 0
+Bicyle : 0
+Doll :0
+sdf      dsf	Bicycle
+
+
+
+Coal : 0
+Bicyle : 1
+Doll :0
+sdfsd      sdfsdf	Bicycle
+
+
+
+Coal : 0
+Bicyle : 1
+Doll :0
