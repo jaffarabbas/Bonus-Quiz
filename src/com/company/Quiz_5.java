@@ -54,7 +54,7 @@ class Program_Checker{
                  status = obj.nextLine();
 
 
-                writer.write("\n"+gender+"      "+firstname+"\t      "+lastname+"\t  "+status+"\n");
+        
                 writer.close();
                 System.out.println("FileWriter succesfully");
 
@@ -99,8 +99,8 @@ class Program_Checker{
     public void addlisttfile() throws IOException {
 
         String filename = "J:\\Github\\Bonus-Quiz\\src\\com\\company\\ShoppingList.txt";
-        FileWriter writer = new FileWriter(filename,true);
 
+ 
         PrintWriter print = new PrintWriter(writer);
         Show_Increasment();
         writer.write("\n"+firstname+"      "+lastname+"\t"+getToyname()+"\n\n\n\n"+"Coal : "+coal+"\nBicyle : "+bicycle+"\nDoll : "+Doll);
@@ -111,6 +111,7 @@ class Program_Checker{
       //  System.out.println("First Name  Last Name  ToyName \n");
         while ((read = reader.readLine()) != null){
             System.out.println(read);
+
         }
     }
 
